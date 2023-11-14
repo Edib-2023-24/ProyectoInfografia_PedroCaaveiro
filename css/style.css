@@ -15,19 +15,26 @@
 /* ******************************** */
 
 /* Colores */
+:root {
+  /* Mode 1 */
+  /* colors */
+  --cyan: #211ea6;
+  --gray: #d9d9d9;
+  --black:#000000;
+}
 
 /* ******************************** */
 body{
 justify-content: center;
-background-color: rgb(0, 255, 191);
+
 display: flex;
 align-items: center;
 
 }
 main{
 width: 1610px;
-height: 900px;
-background: #FFF;
+height: 600px;
+
 display: grid;
 grid-template-columns:repeat(20 ,1fr);
 grid-template-rows: repeat(43 ,1fr);
@@ -38,19 +45,29 @@ padding:10px;
 
 
 .caja1{
-
-  background: #ac0b0b;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+padding: 10px;
+  background-color: var(--gray);
   grid-column:1/3 ;/* columna*/
   grid-row:1/7 ;/*fila*/
 border-radius: 25%;
+border: 1px solid var(--cyan);
+
+}
+.caja1 p{
+
 
 }
 
 .caja2{
   grid-column:3/7;/* columna*/
   grid-row:1/7 ;/*fila*/
-  background: #0bac20;
+  background-color: var(--gray);
   border-radius: 25%;
+  border: 1px solid var(--cyan);
 
 
 }
@@ -60,7 +77,8 @@ border-radius: 25%;
   border-radius: 25%;
   grid-column:7/10 ;/* columna*/
   grid-row:1/7 ;/*fila*/
-  background: #ac0b0b;
+  background-color: var(--gray);
+  border: 1px solid var(--cyan);
 
 }
 
@@ -68,14 +86,16 @@ border-radius: 25%;
   border-radius: 25%;
   grid-column:10/14 ;/* columna*/
   grid-row:1/7 ;/*fila*/
-  background: #ac0b0b;
+  background-color: var(--gray);
+  border: 1px solid var(--cyan);
 }
 
 .caja5{
   border-radius: 25%;
   grid-column:14/17 ;/* columna*/
   grid-row:1/7 ;/*fila*/
-  background: #ac0b0b;
+  background-color: var(--gray);
+  border: 1px solid var(--cyan);
 
 }
 
@@ -83,90 +103,131 @@ border-radius: 25%;
   border-radius: 25%;
   grid-column:17/21;/* columna*/
   grid-row:1/7 ;/*fila*/
-  background: #ac0b0b;
+  background-color: var(--gray);
+  border: 1px solid var(--cyan);
 }
 
 .caja7{
-  background: #ac0b0b;
+  background-color: var(--gray);
   grid-column:1/3 ;/* columna*/
   grid-row:7/11 ;/*fila*/
 border-radius: 25%;
+border: 1px solid var(--cyan);
 
 }
 
 .caja8{
-  background: #ac0b0b;
+  background-color: var(--gray);
   grid-column:3/5 ;/* columna*/
   grid-row:7/11;/*fila*/
   border-radius: 25%;
+  border: 1px solid var(--cyan);
 }
 
 
 .caja9{
 
-  background: #ac0b0b;
+  background-color: var(--gray);
   grid-column:5/7 ;/* columna*/
   grid-row:7/11 ;/*fila*/
   border-radius: 25%;
+  border: 1px solid var(--cyan);
 }
 
 .caja10{
 
-  background: #ac0b0b;
+  background-color: var(--gray);
   grid-column:5/7 ;/* columna*/
   grid-row:7/11 ;/*fila*/
   border-radius: 25%;
+  border: 1px solid var(--cyan);
 }
 
 
 .caja11{
 
   
-background: #ac0b0b;
+ background-color: var(--gray);
   grid-column:7/15 ;/* columna*/
   grid-row:7/23 ;/*fila*/
   border-radius: 25%;
+  border: 1px solid var(--cyan);
 }
 .caja12{
   grid-column:15/17 ;/* columna*/
   grid-row:8/16 ;/*fila*/
   border-radius: 25%;
-  background: #ac0b0b;
+  background-color: var(--gray);
+  border: 1px solid var(--cyan);
 }
 
 .caja13{
 
-  background: #ac0b0b;
+  background-color: var(--gray);
   grid-column:17/21 ;/* columna*/
   grid-row:8/16 ;/*fila*/
   border-radius: 25%;
+  border: 1px solid var(--cyan);
 }
 .caja14{
-
-  background: #ac0b0b;
+  grid-column:1/7 ;/* columna*/
+  grid-row:11/18 ;/*fila*/
+  border-radius: 25%;
+  background-color: var(--gray);
+  border: 1px solid var(--cyan);
 }
 .caja15{
-
-  background: #ac0b0b;
+  grid-column:15/21 ;/* columna*/
+  grid-row:16/29 ;/*fila*/
+  background-color: var(--gray);
+  border-radius: 25%;
+  border: 1px solid var(--cyan);
 
 }
 .caja16{
-  background: #ac0b0b;
+  background-color: var(--gray);
+  grid-column:1/4;/* columna*/
+  grid-row:18/23;/*fila*/
+  border-radius:25%;
+  border: 1px solid var(--cyan);
   
 }
 .caja17{
-
+  background-color: var(--gray);
+  grid-column:4/7;/* columna*/
+  grid-row:18/23;/*fila*/
+  border-radius:25%;
+  border: 1px solid var(--cyan);
   
 }
 .caja18{
-
+  background-color: var(--gray);
+  grid-column:1/5;/* columna*/
+  grid-row:23/30;/*fila*/
+  border-radius:25%;
+  border: 1px solid var(--cyan);
   
 }
 .caja19{
-
+  background-color: var(--gray);
+  grid-column:5/7;/* columna*/
+  grid-row:23/30;/*fila*/
+  border-radius:25%;
+  border: 1px solid var(--cyan);
   
 }.caja20{
-
+  background-color: var(--gray);
+  grid-column:7/12;/* columna*/
+  grid-row:23/30;/*fila*/
+  border-radius:25%;
+  border: 1px solid var(--cyan);
   
 }
-*/
+.caja21{
+  background-color: var(--gray);
+  grid-column:12/15;/* columna*/
+  grid-row:23/30;/*fila*/
+  border-radius:25%;
+  border: 1px solid var(--cyan);
+  
+}
