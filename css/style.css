@@ -182,8 +182,29 @@ background-color: var(--gray);
  align-items: center;
 
 }
+
 .caja11:hover{
   transform: none;
+}
+.clock {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 10px solid #333;
+  border-radius: 50%;
+  background-color: #252525;
+}
+
+
+
+.minute-hand {
+  height: 90px;
+  background-color: #555;
+}
+
+.second-hand {
+  height: 50px;
+  background-color: red;
 }
 
 .caja12{
