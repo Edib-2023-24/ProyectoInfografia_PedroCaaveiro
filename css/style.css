@@ -139,6 +139,11 @@ background-position: center;
   background-color: var(--gray);
   border: 1px solid var(--cyan);
 }
+.caja4 img{
+ margin-left: 25%;
+width: 40%;
+height:60px;
+}
 
 .caja5{
   display: flex;
